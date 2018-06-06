@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'TRMemoryWave/'
   s.source       = { :git => 'https://github.com/junqingwuchu/TRMemoryWave.git', :tag => s.version}
-  s.source_files = 'TRMemoryWave/TRMemoryWave.h'
+  s.source_files = 'TRMemoryWave/TRMemoryHeader.h'
 
 end
