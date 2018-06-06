@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.requires_arc = true
   s.author             = { "Tracky" => "302855862@qq.com" }
-  s.social_media_url   = "http://twitter.com/xixiaoshuai"
+  s.social_media_url   = "https://github.com/junqingwuchu"
 
   s.public_header_files = 'TRMemoryWave/'
   s.source       = { :git => 'https://github.com/junqingwuchu/TRMemoryWave.git', :tag => s.version}
