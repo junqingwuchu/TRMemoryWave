@@ -61,7 +61,7 @@
 
 -(void)setProgress:(CGFloat)progress {
     _progress = progress;
-    _progressLabel.text = [NSString stringWithFormat:@"%ld%%",[[NSNumber numberWithFloat:progress * 100] integerValue]];
+    _progressLabel.text = [NSString stringWithFormat:@"%.1f%%",[[NSNumber numberWithFloat:progress * 100] floatValue]];
     _progressLabel.textColor=[UIColor colorWithWhite:progress*1.8 alpha:1];
     self.yHeight = self.bounds.size.height * (1 - progress);
     
