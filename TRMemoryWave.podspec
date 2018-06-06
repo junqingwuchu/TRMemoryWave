@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "Tracky" => "302855862@qq.com" }
   s.social_media_url   = "https://github.com/junqingwuchu"
 
-  s.public_header_files = 'TRMemoryWave/'
+  s.public_header_files = 'TRFPS/*.{h,m}'
   s.source       = { :git => 'https://github.com/junqingwuchu/TRMemoryWave.git', :tag => s.version}
   s.source_files = 'TRMemoryWave/TRMemoryHeader.h'
 
